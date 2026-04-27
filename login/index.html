@@ -244,6 +244,7 @@
         <span>Create account</span>
         <svg width="18" height="18"><use href="#ic-rocket" stroke="white"/></svg>
       </button>
+      <div id="allertBox" class="allert" style="display:none;"></div>
     </form>
   </div>
 </div>
@@ -393,8 +394,7 @@
     setLoading('registerBtn', true, registerDefault);
     setTimeout(() => { setLoading('registerBtn',false,registerDefault); showToast('Account created! Welcome to Nexus 🎉','success'); }, 1800);
   });
-    <div id="alertBox" class="allert" style="display:none;"></div>
-      </form>
+  
 <script src="js/login.js"></script>
 </script>
 </body>
